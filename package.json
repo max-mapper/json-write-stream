@@ -1,0 +1,25 @@
+{
+  "name": "json-write-stream",
+  "version": "1.0.0",
+  "description": "serialize a stream of newline delimited json into serialized regular json",
+  "main": "cli.js",
+  "bin": {
+    "json-write-stream": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxogden/json-write-stream.git"
+  },
+  "keywords": [],
+  "author": "max ogden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxogden/json-write-stream/issues"
+  },
+  "homepage": "https://github.com/maxogden/json-write-stream#readme",
+  "dependencies": {
+    "JSONStream": "^1.3.1",
+    "minimist": "^1.2.0",
+    "ndjson": "^1.5.0"
+  }
+}
